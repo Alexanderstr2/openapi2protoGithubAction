@@ -20,5 +20,5 @@ jobs:
         github-token: '${{ secrets.GITHUB_TOKEN }}'
     # Optional: now that the script is a Github action, it is possible to run it in the
     # workflow.
-    - name: OpenAPI2gRPC
+    - name: Demo
       uses: [./](./)
