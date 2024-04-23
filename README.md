@@ -1,3 +1,5 @@
+# This is a Fork of the [openapi2proto](https://github.com/nytimes/openapi2proto) tool from the New York Times, it uses [Go Actions](https://github.com/posener/goaction) to automatically convert this tool into a Github Action
+
 # openapi2proto [![Build Status](https://travis-ci.org/nytimes/openapi2proto.svg?branch=master)](https://travis-ci.org/nytimes/openapi2proto)
 
 This tool will accept an OpenAPI/Swagger definition (yaml or JSON) and generate a Protobuf v3 schema and gRPC service definition from it.
